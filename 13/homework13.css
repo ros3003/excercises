@@ -1,0 +1,108 @@
+.page-header {
+    height: 430px;
+    width: 100%;
+    border-top: 3px solid #F23A16;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.page-header::after {
+    background-image: url("13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.header-first-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.header-logo {
+    font-family: 'Ma Shan Zheng', cursive;
+    background-color: #F43813;
+    width: 260px;
+    height: 45px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 27px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.header-text {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.header-text.small {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    height: 40px;
+    width: 130px;
+    font-family: 'Lakki Reddy', cursive;
+    border-radius: 30px;
+}
+.btn-start {
+    border: 1px solid gray;
+    color: white;
+    background-color: transparent;
+    margin-right:10px;
+}
+.btn-learn{
+    border: 1px solid #F73612;
+    color: white;
+    background-color: #F73612;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header-links a:last-child {
+    margin-right: 50px;
+}
+
+.header-links a:hover {
+    color: #F43813;
+}
+.icon-square{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.header-icons{
+    display: flex;
+}

@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+* {
+	box-sizing: border-box;
+}
+.row > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.p-absolute{
+	position: absolute;
+}
+.p-relative {
+	position: relative;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+
+.d-flex {
+	display: flex;;
+}
+.py-15px {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}

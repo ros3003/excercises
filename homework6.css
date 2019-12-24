@@ -1,0 +1,212 @@
+.p-relative {
+	position: relative;
+}
+.w-45 {
+	width: 45%;
+	min-width: 45%;
+	height: 380px;
+}
+.row >div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.image {
+	max-width: 100%;
+}
+body {
+	margin: 0;
+}
+* {
+	box-sizing: border-box;
+}
+.icon {
+	position: absolute;
+	font-size: 60px;
+}
+.icon-mobile {
+	left: 60px;
+	top: 20px;
+	color: rgba(0, 0, 255, 0.5);
+	font-size: 45px;
+}
+
+
+.icon-map {
+	left: 150px;
+	top: 20px;
+	color: rgba(0,0,0,0.5);
+	font-size: 40px;
+}
+.icon-globe {
+	left: 230px;
+	top: 20px;
+	color: rgba(0,0,0,0.5);
+	font-size: 45px;
+
+}
+
+.icon-calendar{
+	left: 310px;
+	top: 20px;
+	color: rgba(0,0,0,0.5);
+	font-size: 45px;
+}
+.icon-user{
+	left: 380px;
+	top: 20px;
+	color: rgba(0,0,0,0.5);
+	font-size: 45px;
+
+}
+.icon-search{
+	left: 450px;
+	top: 20px;
+	color: rgba(0,0,0,0.5);
+	font-size: 40px;
+}
+.icon-map2{
+	left: 510px;
+	top: 20px;
+	color: blue;
+	font-size: 40px;
+}
+.icon-heart {
+	left: 60px;
+	top: 100px;
+	color: rgba(255, 0, 0, 0.5);
+	font-size: 40px;
+} 
+.icon-play{
+	left: 150px;
+	top: 100px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 40px;
+
+}
+.icon-map-pin{
+	left: 240px;
+	top: 100px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 40px;
+
+}
+.icon-code{
+	left: 310px;
+	top: 100px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 40px;
+
+}
+.icon-clock{
+	left: 380px;
+	top: 100px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 40px;
+}
+.icon-cog{
+	left: 450px;
+	top: 100px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 40px;
+}
+.icon-heart2x{
+	left: 520px;
+	top: 100px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 40px;
+	color: red;
+}
+.icon-camera{
+	left: 60px;
+	top: 190px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 40px;
+}
+.icon-search-dollar{
+	left: 150px;
+	top: 190px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 40px;
+}
+.icon-clock2x{
+	left: 235px;
+	top: 190px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 40px;
+}
+.icon-user-astro{
+	left: 310px;
+	top: 190px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 40px;
+}
+.icon-pencil{
+	left: 380px;
+	top: 190px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 40px;
+}
+.icon-ok{
+	left: 450px;
+	top: 190px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 40px;
+}
+
+.icon-check{
+	left: 520px;
+	top: 190px;
+	color: rgba(0, 250, 0, 0.5);
+	font-size: 40px;
+
+}
+.icon-user3x{
+	left: 60px;
+	top: 290px;
+	color: rgba(0, 250, 0, 0.5);
+	font-size: 40px;
+
+}
+.icon-buld{
+	left: 160px;
+	top: 290px;
+	color: rgba(0, 0, 0, 1);
+	font-size: 40px;
+
+
+}
+.icon-watch{
+	left: 230px;
+	top: 290px;
+	color: rgba(0, 0, 0, 1);
+	font-size: 40px;
+
+}
+.icon-house{
+	left: 300px;
+	top: 290px;
+	color: rgba(0, 0, 0, 1);
+	font-size: 40px;
+
+}
+.icon-buld2x{
+
+	left: 380px;
+	top: 290px;
+	color: red;
+	font-size: 40px;
+}
+.icon-note{
+	left: 450px;
+	top: 290px;
+	color: red;
+	font-size: 40px;
+
+}
+.icon-picture{
+	left: 520px;
+	top: 290px;
+	color:rgba(0, 0, 0, 0,5);
+	font-size: 40px;
+
+}

@@ -1,0 +1,54 @@
+.column >div{
+	display: block;
+	vertical-align: middle;
+
+}
+.row >div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.cell-2x{
+	width: 753px;
+	height: 80px;
+	background-color: #0080ff;
+}
+.table1{
+	width:188px; 
+	height:148px;
+	background-color:#FF4500;
+}
+.table2{
+	width: 377px;
+	height:148px;
+	background-color:#28BE5C;
+}
+.table3{
+	width:188px; 
+	height:148px;
+	background-color: #FED700;
+}
+.foot{
+	width: 753px;
+	height: 139px;
+	background-color: #8A2AE3;
+
+}
+
+.foot>div{
+	width: 170px;
+	height: 80px;
+	background-color: #CC8073;
+	margin-top: 24px;
+}
+.foot1{
+	margin-right: 5px;
+	margin-left: 24px;
+}
+.foot2{
+	margin-right: 5px;
+}
+.foot3{
+	margin-right: 5px;
+}
+
+

@@ -1,0 +1,39 @@
+.page-header {
+	height: 430px;
+	width: 100%;
+	background-image: url("coockie12.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 180px;
+}
+	.page-header > .p-absolute {
+	left: 28%;
+	top: 200px;
+}
+.header-text{
+	color: #090806;
+	font-size: 45px;
+	margin-bottom: 50px;
+	
+}
+.btn{
+	height: 40px;
+	width: 130px;
+	border: 1px solid gray;
+	color: white;
+	background-color:#AC2862;
+	font-family: 'Lakki Reddy', cursive; 
+	border-radius: 30px;
+}
+.section {
+	width: 32.5%;
+	padding: 60px;
+	color:#6e6e6e;
+}
+.section-icon{
+	font-size: 40px;
+	color: #767676;
+}
+.section-header{
+	padding: 15px 0;
+}

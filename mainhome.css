@@ -1,0 +1,39 @@
+.cell {
+	width: 125px;
+	height: 130px;
+}
+.cell-2x-h {
+	width: 254px;
+	height: 130px;
+}
+.cell-2x-v {
+	width: 125px;
+	height: 265px;
+}
+.row > div {
+	display: inline-block;
+}
+.column > div {
+	display: block;
+}
+
+.table1{
+	background-color: #ADF5B6;
+}
+.table2{
+	background-color: #FEE974;
+}
+.table3{
+	background-color: #5EFFFA;
+	
+}
+.table4{
+	background-color:#E6B4FD;
+	margin-bottom: 5px;
+}
+.table5{
+	background-color:#70E4D5;
+}
+.table6{
+	background-color:#FD9B5C;
+}

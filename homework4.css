@@ -1,0 +1,98 @@
+.max1{
+	width: 65px;
+	height: 52px;
+	background-color: #90EE90;
+}
+.max2{
+	background-color: #CC0202;
+	width: 65px;
+	height: 52px;
+}
+.max3{
+	background-color: #FEA500;
+	width: 65px;
+	height: 52px;
+
+}
+.max123{
+	display: inline-block;
+}
+
+.max4{
+	background-color: #90EE90;
+	width: 65px;
+	height: 109px;
+}
+.max5{
+	background-color: #EE82EF;
+	width: 65px;
+	height: 52px;
+
+}
+.max45{
+	display: inline-block;
+}
+.max6{
+	background-color: #CC0202;
+	width: 65px;
+	height: 52px;
+
+}
+.max7{
+	background-color: #EE82EF;
+	width: 65px;
+	height: 52px;
+
+}
+.max8{
+	background-color: #CC0202;
+	width: 65px;
+	height: 52px;
+
+}
+.max678{
+	display: inline-block;
+}
+.max9{
+	background-color: #FEA500;
+	width: 65px;
+	height: 52px;
+}
+.max10{
+	background-color: #EE82EF;
+	width: 65px;
+	height: 52px;
+}
+.max910{
+	display: inline-block;
+}
+
+
+/* --------------------- */
+.column {
+	vertical-align: top;
+	display: inline-block;
+}
+.column > div {
+	margin-bottom: 5px;
+}
+.block {
+	width: 65px;
+	height: 52px;
+}
+.block-2x {
+	height: 109px;
+}
+
+.c-green {
+	background-color: #90EE90;
+}
+.c-red {
+	background-color: #CC0202;
+}
+.c-orange{
+	background-color: #FEA500;
+}
+.c-pink{
+	background-color: #EE82EF;
+}

@@ -1,0 +1,46 @@
+.cell-small {
+	height: 80px;
+	width: 245px;
+	
+}
+
+.cell1{
+	background-color: #00BFFE;
+	height: 85px;
+	width: 743px;
+	margin-bottom: 5px;
+}
+.cell2{
+	background-color: #FF4500;
+	height: 165px;
+	width: 494px;
+}
+.cell3{
+	background-color: #4169E2;
+	margin-bottom: 5px;
+}
+.cell4{
+	background-color: #FED700;
+}
+.cell5{
+	background-color:#8A2BE1;
+}
+.cell6{
+	background-color:#32CD33;
+}
+.cell7{
+	background-color:#FF7F50;
+}
+.cell8{	
+	background-color:#20B1AA;
+}
+.cell9{
+	background-color:#800000;
+}
+
+.row > div {
+	display: inline-block;
+}
+.column > div {
+	display: block;
+}

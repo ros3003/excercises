@@ -1,0 +1,68 @@
+/* General */
+body {
+	margin: 0;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Lakki Reddy', cursive;
+}
+* {
+	box-sizing: border-box;
+}
+.row > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.p-absolute{
+	position: absolute;
+}
+.p-relative {
+	position: relative;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+
+/* Header*/ 
+.page-header {
+	height: 430px;
+	width: 100%;
+	background-image: url("homework10.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 180px;
+}
+.page-header > .p-absolute {
+	left: 28%;
+	top: 200px;
+}
+.header-text{
+	color: white;
+	font-size: 45px;
+	margin-bottom: 50px;
+	
+}
+.btn{
+	height: 40px;
+	width: 130px;
+	border: 1px solid gray;
+	color: black;
+	background-color:white;
+	font-family: 'Lakki Reddy', cursive; 
+}
+
+/* Sections */
+.section {
+	width: 24.5%;
+	padding: 60px;
+	color:#6e6e6e;
+}
+.section-icon{
+	font-size: 40px;
+	color: #7EC5BF;
+}
+.section-header{
+	padding: 15px 0;
+}

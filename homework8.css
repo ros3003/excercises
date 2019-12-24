@@ -1,0 +1,42 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+body *{
+	box-sizing: border-box;
+
+}
+
+.form-group >*{
+	display: block;
+}
+.input-label{
+	font-size: 12px;
+	font-weight: 300px;
+	color: #565B5F;
+	margin-bottom:5px; 
+
+}
+.form-control{
+	border: 1px solid #76A698;
+	width: 345px;
+	height: 33px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.form-control.error{
+	border: 1px solid #A89197;
+}
+.input-hint{
+	font-size: 10px;
+	font-weight: 300px;
+	color: #C0C0C0;
+	margin-bottom:5px; 
+}
+.validation-message{
+	font-size: 14px;
+	font-weight: 300px;
+	color: #B19298;
+	margin-bottom:5px; 
+
+}
