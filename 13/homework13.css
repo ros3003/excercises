@@ -1,5 +1,5 @@
 .page-header {
-    height: 430px;
+    height: 470px;
     width: 100%;
     border-top: 3px solid #F23A16;
     position: relative;
@@ -10,7 +10,6 @@
     background-image: url("13.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
     content: "";
     top: 0;
     left: 0;
@@ -54,6 +53,7 @@
     display: flex;
     align-items: center;
 }
+
 .header-text.small {
     font-size: 18px;
     margin-bottom: 30px;
@@ -65,13 +65,15 @@
     font-family: 'Lakki Reddy', cursive;
     border-radius: 30px;
 }
+
 .btn-start {
     border: 1px solid gray;
     color: white;
     background-color: transparent;
-    margin-right:10px;
+    margin-right: 10px;
 }
-.btn-learn{
+
+.btn-learn {
     border: 1px solid #F73612;
     color: white;
     background-color: #F73612;
@@ -97,7 +99,8 @@
 .header-links a:hover {
     color: #F43813;
 }
-.icon-square{
+
+.icon-square {
     width: 60px;
     height: 60px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -106,21 +109,86 @@
     align-items: center;
     flex-direction: column;
     margin: 5px;
-    
 }
-.icon-square:hover{
+
+.icon-square:hover {
     background-color: slategray;
     cursor: pointer;
 }
-.icon-square i{
+
+.icon-square i {
     font-size: 25px;
     color: white;
-    
 }
-.header-icons{
+
+.header-icons {
     display: flex;
+    margin-top: 75px;
 }
-.icon-square div{
+
+.icon-square div {
     font-size: 10px;
     color: white;
 }
+
+.foot-icon1 {
+    width: 60px;
+    height: 60px;
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px;
+    border-right: 1px solid #8F8F8F;
+    font-size: 25px;
+    color: #8F8F8F;
+}
+
+.text-foot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.foot-icons  {
+    display: flex;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    
+}
+
+.hexagon {
+    position: relative;
+    width: 70px; 
+    height: 40.41px;
+    background-color: #F03A18;
+    margin: 14.43px 0;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hexagon:before, .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 20.21px solid #F03A18;
+}
+
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 20.21px solid #F03A18;
+}
+  
