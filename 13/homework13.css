@@ -130,10 +130,12 @@
     font-size: 10px;
     color: white;
 }
-.foot{
+
+.cogs-wrapper {
     display: flex;
-    margin: 90px;
+    margin: 40px 80px;
 }
+
 .icon-cogs {
     width: 40px;
     height: 55px;
@@ -144,31 +146,43 @@
     font-size: 25px;
     color: #8F8F8F;
 }
-.text{
+
+.cogs-text {
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
 }
+
 .text-foot {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 5px;
-    color:#292929;
+    color: #292929;
 }
 
-.foot-icons  {
+.foot-icons {
     display: flex;
     font-size: 25px;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 5px;
-    
+    margin: 0 80px 40px;
+}
+
+.title1 {
+    color: #000;
+    font-size: 18px;
+}
+
+.title2 {
+    color: #5d5b5b;
+    font-size: 14px;
 }
 
 .hexagon {
     position: relative;
-    width: 70px; 
+    width: 70px;
     height: 40.41px;
     background-color: #F03A18;
     margin: 14.43px 0;
@@ -176,6 +190,8 @@
     margin: 30px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
 }
 
 .hexagon:before, .hexagon:after {
@@ -196,4 +212,25 @@
     width: 0;
     border-top: 20.21px solid #F03A18;
 }
-  
+
+.hexagon:hover:before {
+    border-bottom-color: rgb(230, 99, 76);
+    cursor: pointer;
+}
+
+.hexagon:hover {
+    background-color: rgb(230, 99, 76);
+    cursor: pointer;
+    transform: perspective(600px) rotateX(60deg);
+}
+
+.hexagon:hover::after {
+    border-top-color: rgb(230, 99, 76);
+    cursor: pointer;
+}
+
+.hexagon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
